@@ -12,7 +12,7 @@
 # Download repository:
 git clone https://github.com/tuychin/webpack-builder-template
 
-# Go to the app:
+# Go to the project:
 cd webpack-builder-template
 
 # Install dependencies:
