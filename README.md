@@ -12,6 +12,9 @@
 # Download repository:
 git clone https://github.com/tuychin/webpack-builder-template
 
+# Set repository url:
+git remote set-url origin git@github.com:example-user/example-repository.git
+
 # Go to the project:
 cd webpack-builder-template
 
