@@ -7,7 +7,7 @@
 html {
   line-height: $mainLineHeight;
 	font-size: $mainFontSize;
-	color: $mainFontColor;
+	color: $font-color;
   height: 100%;
   @media screen and (max-width: $desktopWidth) {
 		font-size: 16px;
@@ -74,13 +74,13 @@ section, .section {
   margin: 0 auto;
   max-width: $desktopWidth;
   @media screen and (max-width: $smDesktopWidth) {
-    max-width: tableWidth;
+    max-width: $tableWidth;
   }
   @media screen and (max-width: $tableWidth) {
-    max-width: phoneWidth;
+    max-width: $phoneWidth !important;
   }
   @media screen and (max-width: $phoneWidth) {
-    max-width: smPhoneWidth;
+    max-width: $smPhoneWidth !important;
   }
 }
 
