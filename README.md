@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>Webpack builder template</h1>
+  <h1>Webpack template</h1>
   <p>
     This Webpack template, link files for use in a browser,
     but it is also capable of converting, compressing and packaging resource.
